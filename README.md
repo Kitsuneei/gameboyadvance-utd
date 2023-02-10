@@ -6,7 +6,7 @@ Our project requires a comprehensive understanding of computer architecture, sys
 ## Getting Started
 These instructions will get you a copy of the emulator up and running on your local machine.
 
-[TBD]
+[TBD].
 
 ## Controls
 The following are the default controls for the emulator:
