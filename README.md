@@ -25,5 +25,6 @@ For our project, we have utilized several references to aid in our development. 
 - [Technical Info & CPU Instruction Set](https://problemkaputt.de/gbatek.htm)
 - [Guide and System Breakdown](https://www.coranac.com/tonc/text/)
 - [Sound Testing](http://belogic.com/gba)
+- [System Testiing ROMs](https://github.com/jsmolka/gba-tests)
 - [mGBA Emulator](https://github.com/mgba-emu/mgba)
 - [Visual Boy Advance-m Emulator](https://github.com/visualboyadvance-m/visualboyadvance-m)
