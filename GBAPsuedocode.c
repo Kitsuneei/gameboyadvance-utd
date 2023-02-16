@@ -1,9 +1,9 @@
-﻿#ifndef GBAEmulator
+#ifndef GBAEmulator
 #define GBAEmulator
 
 /* Data Structures */
 
-typedef structure {
+typedef struct {
 
 	//register
 	
@@ -14,11 +14,11 @@ typedef structure {
 	gROM (Game PAK ROM)
 	gRAM (Game PAK RAM)
 	
-} 
+} GBA_State
 
 //function prototypes
-void GBAInitilize
-void GBALoadROM
+void GBA_Initilize(GBA_State)
+void GBA_Load_ROM(GBA_State)
 	
 
 #endif
