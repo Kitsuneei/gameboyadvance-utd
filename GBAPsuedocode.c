@@ -1,24 +1,13 @@
-#ifndef GBAEmulator
-#define GBAEmulator
+//initlize components of GBA: memory, CPU, SDL (graphics)...
+//method for quitting system.
 
-/* Data Structures */
+//Graphics - 60fps, but there is a pause before it starts to render. This has to be taken into account by using Vblanks. Similar to V-sync to avoid tearing.
+//rendering will be done using SDL. Memory Buffer - is set to the display Y value * display X value * 4 * size of int
 
-typedef struct {
+//input - event handling
+//event types: screen resize, quitting, key down, key up
+//key events are most important. Key down to start action, key up to end action
+//have to store current depressed key in memory
 
-	//register
-	
-	//memory values for: 
-	iWRAM (internal)
-	vRAM (video)
-	eWRAM (external)
-	gROM (Game PAK ROM)
-	gRAM (Game PAK RAM)
-	
-} GBA_State
+//ROM files are read in through arguments
 
-//function prototypes
-void GBA_Initilize(GBA_State)
-void GBA_Load_ROM(GBA_State)
-	
-
-#endif
